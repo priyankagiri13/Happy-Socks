@@ -1,0 +1,971 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    font-family: gilroy;
+    background-color: #ffe8e4;
+}
+#main{
+    position: relative;
+    overflow: hidden;
+}
+#page1{
+    height: 100vh;
+    width: 100vw;
+}
+#nav{
+    width: 100vw;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+    border-bottom:2px solid black ;
+}
+#nav #part2 {
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    gap: 40px;
+}
+#nav #part2 h3{
+    font-size: 15px;
+    font-weight: 500;
+    border: 2px solid black;
+    border-radius: 50px;
+    padding: 5px 15px;
+}
+#nav #part2 h3:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+
+}
+#nav #part3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+    font-size: 13px;
+}
+#nav #part3 h3{
+    border: 2px solid black;
+    border-radius: 50%;
+    padding: 4px 6px;
+}
+ #page_content{
+    position: relative;
+    height: calc(100vh-60px);
+    width: 100vw;
+}
+#page_content h1{
+    font-size: 110px;
+    text-transform: uppercase;
+    font-style: oblique;
+    margin-top: 2vh;
+    margin-left: 340px;
+}
+#page_content #image-box{
+    width: 66vw;
+    height: 68vh;
+    margin-left: 35vh;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#image-box>img{
+    width: 64vw;
+    height: 64vh;
+    border: 1px solid black;
+}
+#page2{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+#page2-part1{
+    height: 100vh;
+    width: 60vw;
+}
+#page2-part2{
+    position: relative;
+    height: 100vh;
+    width: 40vw;
+}
+#part1-imagebox{
+    position: relative;
+     width: 55%;
+     height: 75%;
+     /* background-color: beige; */
+     margin: 17%;
+     margin-top: 6%;
+     border: 2px solid black;
+     /* object-fit: cover; */
+}
+
+#part1-imagebox>img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    top:10%;
+    left: 10%;
+}
+#part1-imagebox>button{
+    position: absolute;
+    width: 210px;
+    height: 80px;
+    border-radius:50% ;
+    top: 60%;
+    left:87%;
+    font-family: "monument";
+    font-size: 18px;
+    background-color: #ccf27f;
+    padding-left:7px ;
+    font-weight: 300;
+}
+#part1-imagebox>button:hover{
+    transform: scale(1.2);
+    background-color: pink;
+    cursor: pointer;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+
+}
+
+#page2-part2>h1{
+       font-size: 50px;
+       font-family: monument;
+       font-style: oblique;
+       margin-left: 8%;
+}
+#page2-part2>h1:hover{
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    color: transparent;
+    transform: scale(1.2);
+
+}
+#page2-part2>h2{
+    font-size: 40px;
+    font-family: monument;
+    margin-left: 18%;
+    font-style: italic;
+    margin-top: 14%;
+    line-height: 40px;
+}
+#page2-part2>h2:hover{
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    color: transparent;
+    transform: scale(1.2);
+  
+}
+
+#page2-part2>p{
+    height: 25%;
+    width: 50%;
+    margin-left:20% ;
+    font-family: gilroy;
+    margin-top:2% ;
+    font-size: 18px;
+}
+#part2-imagebox{
+    position: absolute;
+    top:49% ;
+    left: 15%;
+    height: 50%;
+    width: 55%;
+    border: 2px solid black;
+}
+
+
+#part2-imagebox>img{
+    position: relative;
+    top: 8%;
+    right: 10%;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: bottom;
+
+}
+#page3{
+    height: 100vh;
+    width: 100vw;
+}
+#page3>h1{
+    font-size: 55px;
+    margin-top: 6%;
+    margin-left: 8%;
+    font-family: monument;
+    font-style: italic;
+}
+#page3>h1:hover{
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    color: transparent;
+    /* transform: scale(1.2); */
+
+}
+
+#box{
+    /* position: relative; */
+    margin-top: 3%;
+    width: 100%;
+    height: 70vh;
+    background-image: url("WhatsApp Image 2022-08-04 at 6.29.44 PM.jpeg");
+    object-fit: cover;
+    object-position: center;
+    background-size: cover;
+}
+#mainb{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.elem{
+    height: 58%;
+    width: 17%;
+    border: 3px solid black;
+    object-fit: cover;
+    object-position:top ;
+}
+#elem1{
+    background-image: url(https://media.happysocks.com/catalog/product/m/a/magentoimage_sn7rcpwtsxjdlblh.png?width=414&format=pjpg&quality=70&auto=webp&bg-color=fafafa);
+    background-size: cover;
+}
+#elem2{
+    background-image: url(https://media.happysocks.com/catalog/product/m/a/magentoimage_fuh1ehefs5fyw5wy.png?width=414&format=pjpg&quality=70&auto=webp&bg-color=fafafa);
+    background-size: cover;
+}
+
+#elem3{
+    background-image: url(https://media.happysocks.com/catalog/product/m/a/magentoimage_1llurrb6qhmyd0tn.png?width=414&format=pjpg&quality=70&auto=webp&bg-color=fafafa);
+    background-size: cover;
+}
+.elem>button{
+    position: relative;
+    top: 92%;
+    left: 5%;
+    border: 2px solid black;
+    padding: 20px 50px;
+    font-family: monument;
+    font-weight: 100;
+    font-size: 20px;
+    background-color: #ccf27f;
+}
+.elem:hover button{
+    transform: scale(1.3);
+    cursor: pointer;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+}
+#page4{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+#page4>h1{
+    font-size: 40px;
+    font-family: monument;
+    font-style: italic;
+    margin-left: 40%;
+}
+#page4>h1:hover{
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    color: transparent;
+    transform: scale(1.1);
+}
+  .row{
+    width: 80vw;
+    height: 15vh;
+    border-top: 2px solid black;
+    position: relative;
+    top: 15%;
+    display: flex;
+    align-items: center;
+    left: 10%;
+ }
+#circle{
+    width: 115px;
+    height: 43%;
+    text-align: center;
+    position: absolute;
+    top:30%;
+    left:5%;
+    border: 1px solid black;
+    border-radius: 50%;
+    transform: rotate(20deg);
+
+}
+#circle>h4{
+    padding: 10px 30px;
+    padding-bottom: 20px;
+    font-size: 13px;
+    text-transform:uppercase ;
+    transform: rotate(-20deg);
+}
+.row>h4{
+    font-weight: 400;
+    font-size: 6vh;
+    position: absolute;
+    left: 50%;
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: capitalize;
+    font-style: oblique;
+}
+.row>h5{
+    left: 50%;
+    bottom: 11%;
+    position: absolute;
+    font-style: oblique;
+    font-weight: 600;
+    font-size: 1vw;
+    text-transform: uppercase;
+}  
+.row>p{
+    font-weight:bold ;
+    position: absolute;
+    left: 7%;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+#row4{
+    border-bottom: 2px solid black;
+}
+ #image{
+   position: absolute;
+    left:23%;
+    bottom: 2%;
+    height:150%;
+    width: 14%;
+    border: 2px solid black;
+    transform: rotate(15deg);
+    background-image: url(https://sockrepublic.in/wp-content/uploads/2021/08/6-1024x1024.jpg);
+    background-size: cover;
+    opacity: 0;
+    z-index: 99;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+}
+
+.row:hover  #image{
+    opacity: 1;
+}
+ #img{
+    position: absolute;
+    left:93%;
+    bottom: 17%;
+    height:60%;
+
+}
+.row #img:hover{ 
+    transform: scale(1.5);
+ }
+
+#page5{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+
+}
+#page5-part1{
+    position: relative;
+    height: 100vh;
+    width: 50vw;
+}
+#page5-part2{
+    position: relative;
+    height: 100vh;
+    width: 50vw;
+}
+#page5-part1>h2{
+    font-size: 50px;
+    margin-top: 2%;
+    font-family: monument;
+    margin-left: 32%;
+    font-style: oblique;
+    line-height: 40px;
+    text-transform: capitalize;
+}
+#page5-part1>h2:hover{
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    color: transparent;
+    transform: scale(1.2);
+
+}
+
+#page5-part1>h1{
+    font-size: 65px;
+    font-family: monument;
+    margin-left: 20%;
+    font-style: italic;
+    margin-top: 4%;
+    line-height: 50px;
+    text-transform: capitalize;
+
+}
+#page5-part1>h1:hover{
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    color: transparent;
+    transform: scale(1.2);
+
+}
+
+#page5-part1>p{
+    height: 25%;
+    width: 40%;
+    margin-left:25% ;
+    font-family: gilroy;
+    margin-top:4% ;
+    font-size: 18px;
+}
+#page5-imagebox{
+    position: absolute;
+    top:43% ;
+    left: 15%;
+    height: 50%;
+    width: 50%;
+    border: 2px solid black;
+}
+
+
+#page5-imagebox>img{
+    position: relative;
+    top: 8%;
+    left: 10%;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+#page5-imagebox>button{
+    position: absolute;
+    width: 210px;
+    height: 70px;
+    border-radius:50% ;
+    top: 60%;
+    left:78%;
+    font-family: "monument";
+    font-size: 18px;
+    background-color: #ccf27f;
+    padding-left:5px ;
+    font-weight: 300;
+    z-index: 33;
+}
+#page5-imagebox>button:hover{
+    transform: scale(1.2);
+    background-color: rgb(242, 226, 228);
+    cursor: pointer;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+
+}
+
+#page5-2-imagebox{
+    position: relative;
+     width: 60%;
+     height: 75%;
+     margin: 17%;
+     margin-top: 6%;
+     border: 2px solid black;
+     margin-left: 20%;
+}
+
+#page5-2-imagebox>img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    top:8%;
+    right: 8%;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+}
+#page5-2-imagebox>img:hover{
+    transform: scale(1.2);
+}
+
+#page6{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+#scroll{
+    width: 100vw;
+    height: 6%;
+    top: 3%;
+    position: relative;
+    border: 2px solid black;
+    border-left: none;
+    border-right: none;
+    white-space: nowrap;
+    overflow-y: hidden;
+    display: flex;
+   align-items: center;
+}
+.com{
+    height: 100%;
+    width: 28%;
+    display: flex;
+    gap: 5px;
+    animation-name:textanim;
+    animation-duration:2s;
+    animation-iteration-count: infinite;
+    animation-timing-function:linear ;
+    align-items: center;
+    padding-left: 5px;
+}
+@keyframes textanim {
+    0%{
+        transform: translateX(0%);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+    
+}
+.com>h6{
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.com>i{
+    color: red;
+}
+#scroll::-webkit-scrollbar{
+    display: none;
+}
+#page6-part1{
+    position: relative;
+    width: 60vw;
+    height: 80vh;
+}
+#page6-part1>h1{
+    width: 45%;
+    height: 40%;
+    text-transform: capitalize;
+    font-family: monument;
+    font-size: 27px;
+    margin-top: 70px;
+    margin-left: 10%;
+}
+
+#page6-part1>#t{
+    width: 20%;
+    height: 40%;
+    text-transform: capitalize;
+    font-family: monument;
+    line-height: 20px;
+    margin-top: -15%;
+    margin-left: 10%;
+    display: flex;
+    gap: 12px;
+}
+#page6-part1 >#page6-imagebox{
+    top: 30%;
+    left:10%;
+    position: absolute;
+    width: 80%;
+    height: 75%;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#page6-part1 >#page6-imagebox>img{
+  height: 95%;
+  width: 95%;
+    position: relative;
+}
+#smily{
+    position: absolute;
+    width: 20%;
+    height: 40%;
+    top: 15%;
+    left: 70%;
+}
+#smily>img{
+   height: 70%;
+}
+#right-text{
+    position: absolute;
+    width: 20%;
+    height: 40%;
+    top: 55%;
+    left: 70%;
+   z-index: 77;
+
+}
+#right-text>p{
+    text-transform: bold;
+    padding-right: 20px;
+}
+#right-text>h1{
+    margin-left: 19%;
+    text-transform: capitalize;
+    font-family: monument;
+    font-size: 25px;
+    margin-bottom: 10%;
+} 
+#page7{
+    height: 100vh;
+    width: 100vw;
+}
+#page7>h1{
+    text-transform: capitalize;
+    font-family: monument;
+    font-size: 30px;
+    margin-left: 40%;
+    margin-top: 6%;
+}
+#scroll7{
+    top: 5%;
+    position: relative;
+    height: 6%;
+    border: 2px solid black;
+    border-left: none;
+    border-right: none;
+    width: 100vw;
+    white-space: nowrap;
+    overflow-y: hidden;
+    display: flex;
+    /* gap: 60px; */
+    align-items: center;
+}
+.comm{
+    height: 100%;
+    width: 29%;
+    display: flex;
+    gap: 5px;
+    animation-name:textanim;
+    animation-duration:2s;
+    animation-iteration-count: infinite;
+    animation-timing-function:linear ;
+    align-items: center;
+    padding-left: 5px;
+
+} 
+@keyframes textanim {
+    0%{
+        transform: translateX(0%);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+    
+}
+.comm>h6{
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.comm>i{
+    color: red;
+}
+#scroll7::-webkit-scrollbar{
+    display: none;
+}
+#page7-part1{
+    /* position:absolute; */
+    margin-top: 5%;
+    height: 35%;
+    width: 100vw;
+    z-index: 99;
+    display: flex;
+    gap: 40px;
+}
+#page7-part1>h2{
+    position: absolute;
+    /* top:5% ; */
+    left: 45%;
+    margin-top: 15%;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    font-weight: 100;
+    /* font-family: monument; */
+    /* z-index: 100; */
+}
+
+.image{
+    border: 2px solid black;
+    margin-left: 110px;
+    
+}
+#img1{
+    width: 20%;
+    height: 65%;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpH_j1x_OfqxAl83tZpqA50XeqclGlHEBRWQ&usqp=CAU);
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+}
+#img1:hover{
+    transform: scale(1.4);
+}
+#img2{
+    width: 25%;
+    height: 85%;
+    background-image: url(https://s.abcnews.com/images/US/george-bush-socks-gty-04-jpo-181203_hpMain_2_16x9_1600.jpg);
+    background-size: cover;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+
+}
+#img2:hover{
+    transform: scale(1.4);
+}
+
+#img3{
+    width: 20%;
+    height: 75%;
+    background-image: url(https://cdn.shopify.com/s/files/1/1461/5016/articles/tough-apparel-colorful-socks_044d9886-e0d3-49b0-9493-1c0e35fea388.png?v=1591862651);
+    background-size: cover;
+    object-fit: cover;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+}
+#img3:hover{
+    transform: scale(1.4);
+}
+
+#parent{
+    width: 100vw;
+    height: 33vh;
+    display: flex;
+}
+#first{
+    height: 100%;
+    width: 50vw;
+    border: 2px solid black;
+    border-left: none;
+    display: flex;
+    padding:2%;
+    gap: 15%;
+}
+#top1{
+    height: 100%;
+    width: 50%;
+}
+#top1>h1,#top2>h1{
+    font-family: monument;
+    text-transform: capitalize;
+    font-style: italic;
+    font-size: 23px;
+}
+#top2>h1:hover{
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    color: transparent;
+
+}
+#top1>h1:hover{
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    color: transparent;
+
+}
+
+.lrparent{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    gap: 10%;
+    margin-top: 3%;
+    /* font-weight: 100; */
+}
+#left>button,#right>button{
+    font-weight: 100;
+    border: none;
+    font-size: 18px;
+    line-height: 30px;
+    border-bottom:1px solid black ;
+    text-transform: capitalize;
+    background-color: transparent;
+}
+#left>button:hover{
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    color: transparent;
+    transform: scale(1.2);
+
+}
+#right>button:hover{
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    color: transparent;
+    transform: scale(1.2);
+
+}
+#fir>button,#sec>button{
+    font-weight: 100;
+    border: none;
+    font-size: 18px;
+    line-height: 30px;
+    border-bottom:1px solid black ;
+    text-transform: capitalize;
+    background-color: transparent;
+
+}
+#fir>button:hover{
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    color: transparent;
+    transform: scale(1.2);
+}
+#sec>button:hover{
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    color: transparent;
+    transform: scale(1.2);
+
+}
+
+#lrcom{
+    gap: 15%;
+}
+#second{
+    height: 100%;
+    width: 50vw;
+    border: 2px solid black;
+    border-left: none;
+}
+#navlast {
+    margin-top: 3%;
+    margin-left: 5%;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    gap: 20px;
+}
+
+#navlast>h3{
+    font-size: 15px;
+    font-weight: 500;
+    border: 2px solid black;
+    border-radius: 50px;
+    padding: 4px 8px;
+
+}
+#navlast>h3:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+#second>h3{
+    margin-top: 2%;
+    font-size: 15px;
+    font-weight: 500;
+    border: 2px solid black;
+    border-radius: 50px;
+    width: 18%;
+    height: 10%;
+    padding: 4px 8px;
+    text-transform: uppercase;
+     /* align-items: center; */
+     margin-left: 5%;
+
+}
+#second>h3:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+#second>h1{
+    margin-left: 5%;
+    margin-top: 5%;
+    font-family: monument;
+    font-style: oblique;
+    font-size: 20px;
+}
+#second>h1:hover{
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    color: transparent;
+}
+#lasttext{
+    width: 80%;
+     height: 20%;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid black;
+    gap: 80%;
+    margin-left: 5%;
+}
+#lasttext>i{
+    font-size: 35px;
+}
+#lasttext>p{
+    font-size: 15px;
+    font-weight:bold ;
+}
+#lastpart{
+    width: 100vw;
+    height: 10%;
+    padding-left: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#lastpart-part1{
+    width: 30%;
+    display: flex;
+    gap: 5%;
+}
+#lastpart-part1>h5{
+    width:50%;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    /* font-size: 15px; */
+
+}
+#lastpart-part1:hover{
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    color: transparent;
+    /* transform: scale(1.2); */
+
+
+}
+
+#lastpart-part2{
+    width: 30%;
+    display: flex;
+    gap: 5%;
+    font-size: 20px;
+
+}
+
+#lastpart-part2>button{
+    border: none;
+    border-bottom: 1px solid black;
+    font-weight: bold;
+    background-color: transparent;
+    font-size: 15px;
+
+}
+
+#lastpart-part3{
+    width: 30%;
+    display: flex;
+    gap: 5%;
+    padding-left: 80px;
+}
+#lastpart-part3>i{
+    font-size: 25px;
+}
+#lastpart-part3>i:hover{
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    color: transparent;
+    transform: scale(1.2);
+}
